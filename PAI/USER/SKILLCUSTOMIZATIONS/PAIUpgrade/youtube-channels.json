@@ -1,0 +1,67 @@
+{
+  "description": "Erik's YouTube monitoring list - aligned with TELOS goals",
+  "lastUpdated": "2026-01-27",
+  "channels": [
+    {
+      "name": "Nate Hagens - The Great Simplification",
+      "url": "https://www.youtube.com/@thegreatsimplification",
+      "telosAlignment": ["P3: Ecological", "CV5: AI Economic Disruption", "M2: Community Resiliency"],
+      "priority": "high",
+      "notes": "Board of Advisors - Energy/Ecology"
+    },
+    {
+      "name": "Ryan Levesque - The Digital Contrarian",
+      "url": "https://www.youtube.com/@RyanLevesque",
+      "telosAlignment": ["CV4: Convictions Loosely Held", "C2: Deep Convictions"],
+      "priority": "high",
+      "notes": "Referenced in TELOS CV4 - courage to hold convictions"
+    },
+    {
+      "name": "AI Jason",
+      "url": "https://www.youtube.com/@AIJasonZ",
+      "telosAlignment": ["P1: Economic (AI disruption)", "CV5: AI Economic Disruption"],
+      "priority": "high",
+      "notes": "Practical AI implementation, agentic workflows"
+    },
+    {
+      "name": "Matthew Berman",
+      "url": "https://www.youtube.com/@matthew_berman",
+      "telosAlignment": ["P1: Economic (AI disruption)"],
+      "priority": "medium",
+      "notes": "AI news and developments"
+    },
+    {
+      "name": "AI Explained",
+      "url": "https://www.youtube.com/@aiexplained-official",
+      "telosAlignment": ["P1: Economic (AI disruption)", "CV5: AI Economic Disruption"],
+      "priority": "medium",
+      "notes": "Deep dives on AI capabilities and implications"
+    },
+    {
+      "name": "Charles Eisenstein",
+      "url": "https://www.youtube.com/@charleseisenstein",
+      "telosAlignment": ["P2: Existential", "CV1: Personal Connection", "M2: Community Resiliency"],
+      "priority": "medium",
+      "notes": "Interbeing, community, meaning in post-growth world"
+    },
+    {
+      "name": "Front Row Dads",
+      "url": "https://www.youtube.com/@FrontRowDads",
+      "telosAlignment": ["Family priorities", "M1: Young Men & Purpose"],
+      "priority": "high",
+      "notes": "Your community - family-first entrepreneurship"
+    },
+    {
+      "name": "My First Million",
+      "url": "https://www.youtube.com/@MyFirstMillionPod",
+      "telosAlignment": ["Business/Entrepreneurship"],
+      "priority": "low",
+      "notes": "Bootstrapped business ideas, but filter for non-hustle-culture content"
+    }
+  ],
+  "toAdd": [
+    "More nature/resilience channels - suggestions welcome",
+    "Regenerative agriculture voices",
+    "Local community building examples"
+  ]
+}

@@ -1,0 +1,8 @@
+# EXTEND.yaml - Extension manifest
+---
+skill: Utilities
+extends:
+  - youtube-channels.json
+merge_strategy: append
+enabled: true
+description: "YouTube channels for PAI upgrade research and monitoring"

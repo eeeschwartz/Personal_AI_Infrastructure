@@ -1,0 +1,16 @@
+# Secrets
+PAI/USER/secrets/
+.env
+
+# Large/noisy generated content
+MEMORY/WORK/
+MEMORY/RESEARCH/
+MEMORY/LEARNING/REFLECTIONS/
+
+# Claude internals
+projects/
+*.json.backup
+.claude.json
+
+# OS
+.DS_Store

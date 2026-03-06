@@ -1,0 +1,10 @@
+# EXTEND.yaml - Extension manifest
+---
+skill: Art
+extends:
+  - PREFERENCES.md
+  - CharacterSpecs.md
+  - SceneConstruction.md
+merge_strategy: override
+enabled: true
+description: "Erik's art style preferences, character specs, and scene construction guidelines"
