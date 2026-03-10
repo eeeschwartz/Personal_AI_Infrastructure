@@ -144,4 +144,39 @@ From Erik's TELOS:
 
 ---
 
+## Always Use PAI/USER/ for Personal Files (Never Installer-Managed Paths)
+
+Statement
+: When building tools, scripts, docs, or knowledge files for Erik, ALWAYS place them in `PAI/USER/` or its subdirectories. NEVER write to installer-managed paths (`PAI/Tools/`, `PAI/Algorithm/`, `PAI/FLOWS/`, `PAI/PIPELINES/`, `PAI/ACTIONS/`, `hooks/`, `PAI/*.md`, `PAI/*.json`) — these are gitignored and will be overwritten on upstream PAI upgrades.
+
+Bad
+: Erik asks for a new CLI tool to capture sessions. AI creates `PAI/Tools/CaptureSession.ts`. It works today but gets silently overwritten when Erik runs `pai upgrade`. All customization is lost. Same with docs placed in `MEMORY/` that are untracked — they don't survive git clones or new machines.
+
+Correct
+: Erik asks for a new CLI tool. AI checks: is this personal/custom work? Yes → create `PAI/USER/Tools/CaptureSession.ts`. Is it a doc or knowledge file? → `PAI/USER/DOCS/`. A flow process doc? → `PAI/USER/FLOWS/`. A skill? → `PAI/USER/FLOWS/skills/` or `~/.claude/skills/`. File is git-tracked in Erik's fork, survives upgrades.
+
+### Safe vs Unsafe Path Reference
+
+| Type | Safe (git-tracked) | Unsafe (installer-managed, gitignored) |
+|------|-------------------|----------------------------------------|
+| CLI tools / scripts | `PAI/USER/Tools/` | `PAI/Tools/` |
+| Docs, gap analyses, conventions | `PAI/USER/DOCS/` | `MEMORY/` (untracked) |
+| Flow process docs | `PAI/USER/FLOWS/` | `PAI/FLOWS/` |
+| Skill files | `skills/{Category}/` | `PAI/ACTIONS/` |
+| launchd plists | `PAI/USER/Tools/` | `PAI/Tools/` |
+| User steering rules | `PAI/USER/AISTEERINGRULES.md` | `PAI/*.md` |
+
+### Wrapper Pattern for Upstream Tools
+
+When Erik needs to extend an upstream tool (e.g., add Slack alerts to `PAI/Tools/EnrichPendingItems.ts`), NEVER modify the upstream file. Instead:
+1. Create a wrapper in `PAI/USER/Tools/` that spawns the upstream tool as a subprocess
+2. Add the extension logic (alerts, logging, post-processing) in the wrapper
+3. Update any launchd plist to point to the wrapper, not the upstream tool
+
+### Audit Trigger
+
+Before creating any new file, ask: "Is this path tracked in Erik's git repo?" Run `git ls-files <path>` to verify. If the answer is no and this is personal/custom work, move it to the equivalent `PAI/USER/` path.
+
+---
+
 These rules extend `CORE/SYSTEM/AISTEERINGRULES.md`. Both must be followed.
