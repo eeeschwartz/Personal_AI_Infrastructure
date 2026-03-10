@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.erikschwartz.openbrain-enrich</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/bun</string>
+    <string>/Users/erikschwartz/.claude/PAI/USER/Tools/EnrichAndAlert.ts</string>
+  </array>
+
+  <!-- Run every hour -->
+  <key>StartInterval</key>
+  <integer>3600</integer>
+
+  <key>StandardOutPath</key>
+  <string>/Users/erikschwartz/.claude/MEMORY/LOGS/openbrain-enrich.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/erikschwartz/.claude/MEMORY/LOGS/openbrain-enrich.log</string>
+
+  <!-- Don't run if on battery -->
+  <key>ProcessType</key>
+  <string>Background</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HOME</key>
+    <string>/Users/erikschwartz</string>
+    <key>PATH</key>
+    <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+  </dict>
+</dict>
+</plist>

@@ -916,6 +916,9 @@
   "mcpServers": {
     "cloudflare": {
       "url": "https://mcp.cloudflare.com/mcp"
+    },
+    "open-brain": {
+      "url": "https://hnokjyfbwlgrjcdryfhj.supabase.co/functions/v1/open-brain-mcp?key=b24fb784524094942cc34f083f6d8079528f8a6056054937276dac60299ce151"
     }
   },
   "teammateMode": "in-process",
@@ -1052,11 +1055,11 @@
     "workflows": 165,
     "hooks": 20,
     "signals": 1473,
-    "files": 82,
+    "files": 85,
     "work": 646,
     "sessions": 134,
     "research": 66,
     "ratings": 1248,
-    "updatedAt": "2026-03-10T17:27:25.135Z"
+    "updatedAt": "2026-03-10T17:53:22.938Z"
   }
 }
