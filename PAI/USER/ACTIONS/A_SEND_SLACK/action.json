@@ -1,0 +1,13 @@
+{
+  "name": "A_SEND_SLACK",
+  "version": "1.0.0",
+  "description": "Send a message to Slack via Incoming Webhook. Reads SLACK_WEBHOOK_URL from ~/.config/PAI/.env.",
+  "input": {
+    "text": { "type": "string", "required": true, "description": "Message text (supports mrkdwn)" },
+    "blocks": { "type": "array", "description": "Optional Slack Block Kit blocks" }
+  },
+  "output": {
+    "sent": { "type": "boolean" }
+  },
+  "requires": ["fetch"]
+}

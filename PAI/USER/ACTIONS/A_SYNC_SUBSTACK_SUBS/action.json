@@ -1,0 +1,15 @@
+{
+  "name": "A_SYNC_SUBSTACK_SUBS",
+  "version": "1.0.0",
+  "description": "Sync substack-feeds.json with your live Substack subscriptions. Adds new subscriptions, removes unsubscribed publications.",
+  "input": {
+    "config_file": { "type": "string", "description": "Path to substack-feeds.json. Defaults to ~/.claude/PAI/USER/FLOWS/substack-feeds.json" },
+    "paid_only": { "type": "boolean", "description": "Only sync paid subscriptions (default: false, syncs all)" }
+  },
+  "output": {
+    "added": { "type": "array", "description": "Publication URLs newly added to config" },
+    "removed": { "type": "array", "description": "Publication URLs removed from config" },
+    "total": { "type": "number", "description": "Total subscriptions now in config" }
+  },
+  "requires": ["fetch", "readFile", "writeFile"]
+}

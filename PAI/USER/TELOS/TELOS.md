@@ -39,6 +39,12 @@ This means that any project you're doing can be mapped all the way back up to th
 - **Energy / Ecology:** Nate Hagens
 - **Psychology:** Anna Lembke
 - **Embodiment / Nature:** Wendell Berry
+- **Contrarian / Alternative Living:** Ryan Levesque (Digital Contrarian)
+- **Intentional Community / Retribalization:** ReTribalize (@ReTribalize on YouTube)
+
+## Core Communities
+
+- **Front Row Dads** — Dad entrepreneurs, family-first values. Deeply embedded member. Primary pool for finding aligned families (G4). Shared values: present fatherhood, meaningful work, community over status.
 
 ---
 

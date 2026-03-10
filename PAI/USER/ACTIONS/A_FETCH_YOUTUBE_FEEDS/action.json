@@ -1,0 +1,15 @@
+{
+  "name": "A_FETCH_YOUTUBE_FEEDS",
+  "version": "1.0.0",
+  "description": "Fetch recent videos from YouTube channel RSS feeds. Returns new videos not seen before.",
+  "input": {
+    "channel_ids": { "type": "array", "required": true, "description": "List of YouTube channel IDs" },
+    "seen_file": { "type": "string", "description": "Path to JSON file tracking seen video IDs. Defaults to ~/.claude/PAI/USER/FLOWS/youtube-seen.json" },
+    "max_per_channel": { "type": "number", "description": "Max videos per channel to process (default: 5)" }
+  },
+  "output": {
+    "items": { "type": "array", "description": "New unseen videos [{video_id, url, title, published, description, channel_name, channel_id}]" },
+    "total_new": { "type": "number" }
+  },
+  "requires": ["fetch", "readFile", "writeFile"]
+}

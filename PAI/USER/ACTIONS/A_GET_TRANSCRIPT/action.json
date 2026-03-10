@@ -1,0 +1,18 @@
+{
+  "name": "A_GET_TRANSCRIPT",
+  "version": "1.0.0",
+  "description": "Get transcript for a YouTube video using yt-dlp auto-captions.",
+  "input": {
+    "url": { "type": "string", "required": true },
+    "video_id": { "type": "string" },
+    "title": { "type": "string" },
+    "channel_name": { "type": "string" },
+    "published": { "type": "string" },
+    "description": { "type": "string" }
+  },
+  "output": {
+    "transcript": { "type": "string", "description": "Full transcript text" },
+    "transcript_source": { "type": "string", "description": "manual | auto | unavailable" }
+  },
+  "requires": ["shell"]
+}

@@ -1,0 +1,9 @@
+name: P_SUBSTACK_POST
+description: >
+  Process a single Substack post. Content is already extracted from RSS,
+  so we go straight to labeling and rating.
+  Input: {url, title, content, author, published, feed_name}
+  Output: upstream + {labels, rating, quality_score, summary, bullet_points}
+
+actions:
+  - A_LABEL_AND_RATE

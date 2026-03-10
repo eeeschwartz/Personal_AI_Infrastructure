@@ -1,0 +1,15 @@
+{
+  "name": "A_FETCH_SUBSTACK_FEEDS",
+  "version": "1.0.0",
+  "description": "Fetch recent posts from Substack RSS feeds. Returns new posts with full article content extracted.",
+  "input": {
+    "substack_urls": { "type": "array", "required": true, "description": "Substack URLs, e.g. https://pub.substack.com or https://pub.substack.com/feed" },
+    "seen_file": { "type": "string", "description": "Path to JSON file tracking seen post IDs. Defaults to ~/.claude/PAI/USER/FLOWS/substack-seen.json" },
+    "max_per_feed": { "type": "number", "description": "Max posts per feed to process (default: 5)" }
+  },
+  "output": {
+    "items": { "type": "array", "description": "New unseen posts [{url, title, content, author, published, feed_name}]" },
+    "total_new": { "type": "number" }
+  },
+  "requires": ["fetch", "readFile", "writeFile"]
+}

@@ -1,0 +1,9 @@
+name: P_YOUTUBE_VIDEO
+description: >
+  Process a single YouTube video: get transcript, then label and rate it.
+  Input: {url, video_id, title, channel_name, published, description}
+  Output: upstream + {transcript, labels, rating, quality_score, summary, bullet_points}
+
+actions:
+  - A_GET_TRANSCRIPT
+  - A_LABEL_AND_RATE

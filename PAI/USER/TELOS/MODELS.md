@@ -8,27 +8,51 @@ Mental models are simplified representations of complex systems. They help you p
 
 ## Foundational Models
 
-### MO0: [Philosophy/Worldview Model]
-[Your core philosophy for dealing with life - e.g., Stoicism, growth mindset, etc.]
+### MO0: Regulate-Rewire-Realign (Preston Smiles)
+Transformation has a mandatory sequence: (1) calm the nervous system, (2) shift identity, (3) take action. Most self-improvement skips straight to action, which is why it produces sabotage. The body must feel safe before the mind can rewire, and the mind must rewire before action lands.
 
-### MO1: [Human Behavior Model]
-[Your model for understanding why people do what they do]
+**Source:** Preston Smiles
+**Apply when:** Stuck in a pattern despite "trying harder" — go back to regulation first.
 
-### MO2: [Identity Model]
-[Your understanding of how identity works and shapes behavior]
+### MO1: The Body as Living Library (Preston Smiles)
+The body stores every significant experience — trauma, shame, joy, fear — as somatic memory. These memories don't sit in the mind; they live in tissue, nervous system, and posture. Cognitive understanding of the past is necessary but insufficient. The body must complete what it stored.
+
+**Source:** Preston Smiles
+**Apply when:** Understanding why an experience doesn't feel "over" despite resolving it mentally.
+
+### MO2: The Four Powers — King / Warrior / Mystic / Lover (Wagner / Jung)
+A complete man integrates four archetypal energies:
+- **King** — purpose, governance, holding the center; the hub of the wheel
+- **Warrior** — discipline, courage, protecting what matters, getting hard things done
+- **Mystic** — spiritual depth, contemplation, connection to something larger than the ego
+- **Lover** — passion, sensuality, emotional openness, full aliveness
+
+Most men overdevelop one or two and starve the rest. Imbalance manifests as: King without Warrior (big vision, no execution), Warrior without Mystic (grinding without meaning), Lover without King (passion without direction).
+
+**Source:** David Wagner, *Backbone* (adapts Moore/Gillette's Jungian archetypes)
+**Apply when:** Diagnosing which energy is depleted or overdone in a current season of life.
 
 ---
 
 ## Success Models
 
-### MO4: [Achievement Model]
-[Your model for how success/achievement actually works]
+### MO4: Purpose as Hub of the Wheel (Wagner)
+Your purpose — held by the King — sits at the center of a wheel. When purpose is clear and the King is on his throne, every decision has a natural direction: "does this serve the center?" When purpose is absent or unclear, crises, distractions, entertainment, and busyness rush in to fill the vacuum. There is no limit to what will colonize an empty center.
 
-### MO5: [Skill Development Model]
-[How you understand learning and improvement]
+**Source:** David Wagner, *Backbone*
+**Apply when:** Feeling pulled in too many directions — return to the hub. What is supposed to be in the center?
 
-### MO6: [Leadership Model]
-[Your model for effective leadership]
+### MO5: Carve Away, Don't Build Up (Wagner)
+Your power, wisdom, and backbone already exist. The work of becoming a better man is not additive — it is subtractive. Identify and remove the patterns, beliefs, numbing strategies, and conditioning that hide your innate strength. You don't become strong; you stop being weak. Like Michelangelo: the sculpture is already in the stone.
+
+**Source:** David Wagner, *Backbone*
+**Apply when:** Feeling like you need to "become more" — reframe as "what am I hiding behind?"
+
+### MO6: Stalk / Kill / Celebrate / Feast (Wagner)
+The masculine completion cycle for goals: (1) Stalk — identify and commit to the target; (2) Kill — pursue and accomplish it; (3) Celebrate — acknowledge the completion fully; (4) Feast — receive the reward. Most men skip the celebration and feast, which leaves the cycle incomplete and drains motivation for the next stalk. The ritual matters.
+
+**Source:** David Wagner, *Backbone*
+**Apply when:** Setting goals or finishing projects — build in the celebration and feast deliberately.
 
 ---
 

@@ -1,0 +1,21 @@
+{
+  "name": "A_LABEL_AND_RATE",
+  "version": "1.0.0",
+  "description": "Analyze YouTube video transcript with AI: labels, rating, summary, key insights.",
+  "input": {
+    "transcript": { "type": "string" },
+    "content": { "type": "string" },
+    "title": { "type": "string" },
+    "channel_name": { "type": "string" },
+    "description": { "type": "string" }
+  },
+  "output": {
+    "labels": { "type": "array", "description": "Topic tags" },
+    "rating": { "type": "string", "description": "S/A/B/C/D tier" },
+    "quality_score": { "type": "number", "description": "0-100" },
+    "summary": { "type": "string", "description": "2-3 sentence summary" },
+    "bullet_points": { "type": "array", "description": "3-5 key insights" },
+    "skip_reason": { "type": "string", "description": "Set if video should be skipped" }
+  },
+  "requires": ["llm"]
+}

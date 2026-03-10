@@ -1,0 +1,13 @@
+{
+  "_comment": "Add channel IDs here. Find a channel ID from any video: right-click → View page source → search 'channelId'. Or use https://www.youtube.com/channel/CHANNEL_ID if the URL has it.",
+  "channel_ids": [
+    "UCnCikd0s4i9KoDtaHPlK-JA",
+    "UCWJOjGOpN8oSVr_OoJLzk9g"
+  ],
+  "_channels": {
+    "UCnCikd0s4i9KoDtaHPlK-JA": "Unsupervised Learning (@danielmiessler)",
+    "UCWJOjGOpN8oSVr_OoJLzk9g": "The Great Simplification (@thegreatsimplification)"
+  },
+  "max_per_channel": 5,
+  "seen_file": "/Users/erikschwartz/.claude/PAI/USER/FLOWS/youtube-seen.json"
+}

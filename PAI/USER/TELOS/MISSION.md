@@ -16,11 +16,12 @@ Help young men develop purpose as we transition to a post-capitalism economic mo
 
 ## M2: Community Resiliency
 
-To bring people in Lexington together around community resiliency.
+To bring aligned people together around intentional community and local resilience — starting with the right 1-3 families, building toward something that inspires others and prepares for the Great Simplification.
 
-**Why:** P2 (Existential) and P3 (Ecological) - we need local networks before potential collapse
-**How:** Newsletter, skill-building events, resource sharing
-**Timeline:** Ongoing, 100 subscribers by March 2026
+**Why:** P2 (Existential) and P3 (Ecological) - we need local human networks before potential simplification
+**How:** People-first (find aligned families before building structures); newsletter/events as experiments; AI-first businesses as funding and amplification
+**Core Shift:** Community > newsletter. People > place. Relationships > real estate.
+**Timeline:** Ongoing; finding core families is the immediate priority (G4)
 
 ---
 

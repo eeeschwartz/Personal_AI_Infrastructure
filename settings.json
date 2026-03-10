@@ -1048,15 +1048,15 @@
     }
   },
   "counts": {
-    "skills": 12,
-    "workflows": 159,
+    "skills": 15,
+    "workflows": 165,
     "hooks": 20,
-    "signals": 1471,
-    "files": 55,
-    "work": 640,
-    "sessions": 133,
+    "signals": 1473,
+    "files": 82,
+    "work": 646,
+    "sessions": 134,
     "research": 66,
-    "ratings": 1247,
-    "updatedAt": "2026-03-10T14:37:25.453Z"
+    "ratings": 1248,
+    "updatedAt": "2026-03-10T17:27:25.135Z"
   }
 }
