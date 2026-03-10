@@ -71,7 +71,50 @@ credentials/
 PAI/USER/secrets/
 MEMORY/WORK/
 MEMORY/RESEARCH/
-MEMORY/LEARNING/REFLECTIONS/
+MEMORY/LEARNING
 projects/
 *.json.backup
 .claude.json
+file-history/
+debug/
+
+# PAI system skills (installer-managed)
+# Personal skills use _ prefix (e.g. skills/_MYSKILL/) and ARE tracked
+skills/[^_]*/
+
+# PAI system docs (installer-managed)
+PAI/ACTIONS/
+PAI/Algorithm/
+PAI/FLOWS/
+PAI/PIPELINES/
+PAI/Tools/
+PAI/*.md
+PAI/*.json
+
+# System scripts (installer-managed)
+install.sh
+statusline-command.sh
+
+# Runtime / state / cache (never needs tracking)
+cache/
+image-cache/
+paste-cache/
+backups/
+history.jsonl
+agents/
+tasks/
+todos/
+shell-snapshots/
+VoiceServer/
+plugins/
+hooks/
+lib/
+ide/
+PAI-Install/
+MEMORY/STATE/
+MEMORY/VOICE/
+MEMORY/RELATIONSHIP/
+MEMORY/SECURITY/
+
+# IDE-generated
+.claude/settings.local.json
